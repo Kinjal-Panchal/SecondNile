@@ -1,0 +1,116 @@
+PODS:
+  - Firebase/CoreOnly (8.4.0):
+    - FirebaseCore (= 8.4.0)
+  - Firebase/Messaging (8.4.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.4.0)
+  - FirebaseCore (8.4.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.4.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.4.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.4.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Reachability (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+  - FlexiblePageControl (1.0.8)
+  - GoogleDataTransport (9.1.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.5.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.5.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.5.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.5.0)"
+  - GoogleUtilities/Reachability (7.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.5.0):
+    - GoogleUtilities/Logger
+  - IQKeyboardManagerSwift (6.3.0)
+  - Kingfisher (6.3.0)
+  - LinearProgressView (2.0.1)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - PromisesObjC (2.0.0)
+  - SwiftMessages (9.0.3):
+    - SwiftMessages/App (= 9.0.3)
+  - SwiftMessages/App (9.0.3)
+  - WaveAnimationView (1.0.2)
+
+DEPENDENCIES:
+  - Firebase/Messaging
+  - FlexiblePageControl
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - Kingfisher
+  - LinearProgressView (~> 2.0)
+  - NVActivityIndicatorView (= 4.8.0)
+  - SwiftMessages
+  - WaveAnimationView
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FlexiblePageControl
+    - GoogleDataTransport
+    - GoogleUtilities
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - LinearProgressView
+    - nanopb
+    - NVActivityIndicatorView
+    - PromisesObjC
+    - SwiftMessages
+    - WaveAnimationView
+
+SPEC CHECKSUMS:
+  Firebase: 54cdc8bc9c9b3de54f43dab86e62f5a76b47034f
+  FirebaseCore: 31f389c37ac1ea52454a53d3081f2d7019485a4a
+  FirebaseCoreDiagnostics: cad03be1904b975f845e632f2720c3337da27faf
+  FirebaseInstallations: 1585729afc787877763208c2088ed84221161f77
+  FirebaseMessaging: 78025c56654f05c7ebd6f7f87f9d4b12c5231207
+  FlexiblePageControl: 07f7765054f16b3f0bc3f14dfd95ab5f45817ea4
+  GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
+  GoogleUtilities: eea970f4a389963963bffe8d8fabe43540678b9c
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  LinearProgressView: 353d4d45dc599b83cc4b43f14e6c0336aa6f3834
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  SwiftMessages: 077f19126c24033fe24042237ecc20261adb46e4
+  WaveAnimationView: 1ffdf3184884eb3270f4b19cc2e69893fec16b9d
+
+PODFILE CHECKSUM: 363b880f6ed09531cc10d1e387bb4a6d4f0993af
+
+COCOAPODS: 1.8.4
